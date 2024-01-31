@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["<%- project.name %>Module"]
+  },
+  "android": {
+    "modules": ["<%- project.package %>.<%- project.name %>Module"]
+  }
+}
